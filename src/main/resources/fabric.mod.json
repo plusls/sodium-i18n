@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "sodium_i18n",
   "version": "${version}",
-
   "name": "Sodium I18n",
   "description": "Sodium I18n",
   "authors": [
@@ -12,10 +11,8 @@
     "homepage": "https://blog.plusls.com/",
     "sources": "https://github.com/plusls/sodium-i18n"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/sodium_i18n/icon.png",
-
   "environment": "client",
   "entrypoints": {
     "main": [
@@ -24,7 +21,6 @@
   "mixins": [
     "sodium_i18n.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.3",
     "minecraft": "1.16.x",

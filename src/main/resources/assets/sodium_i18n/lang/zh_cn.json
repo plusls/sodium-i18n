@@ -21,7 +21,6 @@
   "Off": "关闭",
   "Crosshair": "十字准星",
   "Hotbar": "工具栏",
-
   "Graphics Quality": "图像品质",
   "Fancy": "高品质",
   "Fabulous": "极佳",
@@ -60,7 +59,6 @@
   "Controls how far away entities can render from the player. Higher values increase the render distance at the expense of frame rates.": "控制实体的显示距离。较高的值会以牺牲帧率为代价增加渲染距离。",
   "If enabled, basic shadows will be rendered beneath mobs and other entities.": "启用后，在生物和其他实体下面渲染简单的阴影。",
   "Vignette": "晕影",
-
   "Use Chunk Multi-Draw": "启用区块多点取样",
   "Multi-draw allows multiple chunks to be rendered with fewer draw calls, greatly reducing CPU overhead when rendering the world while also potentially allowing for more efficient GPU utilization. This optimization may cause issues with some graphics drivers, so you should try disabling it if you are experiencing glitches.": "多点取样允许以更少的绘制调用渲染多个区块，在渲染世界时大大减低CPU性能压力，同时还可能更有效的GPU利用率。 此优化可能会导致某些图形驱动程序出现问题，因此如果你遇到故障，应尝试禁用它。",
   "Use Vertex Array Objects": "启用顶点数组阵对象",
@@ -84,7 +82,7 @@
   "If enabled, only particles which are determined to be visible will be rendered. This can provide a significant improvement to frame rates when many particles are nearby.": "启用后，将仅渲染可见的颗粒。当周围有许多颗粒时，这可以显著地提高帧率。",
   "Animate Only Visible Textures": "仅渲染可见的动态材质",
   "Allow Direct Memory Access": "允许直接访问内存",
-  "If enabled, some critical code paths will be allowed to use direct memory access for performance. This often greatly reduces CPU overhead for chunk and entity rendering, but can make it harder to diagnose some bugs and crashes. You should only disable this if you've been asked to or otherwise know what you're doing.":"启用后，将允许某些关键代码使用路径直接访问内存来提高性能。 这通常会大大降低区块和实体渲染的CPU性能，但会使诊断某些错误和崩溃变得更加困难。 如果你被要求或以其他方式知道您在做什么，你应该只禁用它。",
+  "If enabled, some critical code paths will be allowed to use direct memory access for performance. This often greatly reduces CPU overhead for chunk and entity rendering, but can make it harder to diagnose some bugs and crashes. You should only disable this if you've been asked to or otherwise know what you're doing.": "启用后，将允许某些关键代码使用路径直接访问内存来提高性能。 这通常会大大降低区块和实体渲染的CPU性能，但会使诊断某些错误和崩溃变得更加困难。 如果你被要求或以其他方式知道您在做什么，你应该只禁用它。",
   "If enabled, only animated textures determined to be visible will be updated. This can provide a significant boost to frame rates on some hardware, especially with heavier resource packs. If you experience issues with some textures not being animated, try disabling this option.": "启用后，只会更新可见的动态材质。这可以大大提高某些硬件的帧率，尤其是对于较大的资源包。如果遇到某些材质无动画的问题，请禁用此选项。",
   "Use Memory Intrinsics": "对内存使用内置函数",
   "If enabled, special intrinsics will be used to speed up the copying of client memory in certain vertex-limited scenarios, such as particle and text rendering. This option only exists for debugging purposes and should be left enabled unless you know what you are doing.": "启用后，出现特定受顶点限制的情况时（如粒子和文本的渲染）将使用特殊的内部函数来加速客户端内存的复制。此选项仅用于调试目的，除非你知道自己在干什么，否则应保持启用。",
@@ -97,4 +95,4 @@
   "Apply": "应用",
   "Close": "关闭",
   "None": "无"
-  }
+}
