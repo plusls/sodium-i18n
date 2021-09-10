@@ -96,5 +96,7 @@
   "Undo": "撤销",
   "Apply": "应用",
   "Close": "关闭",
-  "None": "无"
+  "None": "无",
+  "Max Shadow Distance": "最大阴影距离",
+  "The shadow render distance controls how far away terrain can potentially be rendered in the shadow pass. Lower distances mean that less terrain will be rendered, improving frame rates. This option cannot be changed on packs which explicitly specify a shadow render distance. The actual shadow render distance is capped by the View Distance setting.": "阴影渲染距离控制在阴影通道中可能渲染多远的地形。较近的距离意味着将渲染较少的地形，从而提高帧率。不能在已设置阴影距离的光影包上更改此选项。实际阴影距离受渲染距离的限制。"
 }
